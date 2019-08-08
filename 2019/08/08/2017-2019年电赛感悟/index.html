@@ -100,30 +100,24 @@
 
 
 
-  <meta name="description" content="本次主要介绍本人最近的项目水面清理船人员分工废话不多说，直接贴上大创任务书的图片 这个作品的硬件比较简单 主要是图像处理部分，所以本文主要讲解视频图像处理部分下面的程序可以看到图像处理的结果&amp;gt; # 导入所需模块 import cv2 as cv  import collections  import numpy as np  import imutils import socket impo">
+  <meta name="description" content="2017年暑假电赛经历2017年是大一下学期，暑假期间是大一刚刚结束。同时在暑假期间也举行了全国电子设计大赛，我作为基地实验室的成员也参加了，但是这次经历是很沉重的。首先，自己模电数电专业课没有学，单片机只懂51，arduino，STM32单片机也只懂皮毛。其他模块也只懂得不多。当时得控制题目只有板球控制系统，当时是要用到摄像头，图像二值化，还有电机的驱动，PID算法。所以可以看出在四天三夜里面我">
 <meta property="og:type" content="article">
-<meta property="og:title" content="大创项目-水面清理船">
-<meta property="og:url" content="http://yoursite.com/2019/07/01/大创项目-水面清理船/index.html">
+<meta property="og:title" content="2017-2019电子设计大赛感悟">
+<meta property="og:url" content="http://yoursite.com/2019/08/08/2017-2019年电赛感悟/index.html">
 <meta property="og:site_name" content="老谢博客">
-<meta property="og:description" content="本次主要介绍本人最近的项目水面清理船人员分工废话不多说，直接贴上大创任务书的图片 这个作品的硬件比较简单 主要是图像处理部分，所以本文主要讲解视频图像处理部分下面的程序可以看到图像处理的结果&amp;gt; # 导入所需模块 import cv2 as cv  import collections  import numpy as np  import imutils import socket impo">
+<meta property="og:description" content="2017年暑假电赛经历2017年是大一下学期，暑假期间是大一刚刚结束。同时在暑假期间也举行了全国电子设计大赛，我作为基地实验室的成员也参加了，但是这次经历是很沉重的。首先，自己模电数电专业课没有学，单片机只懂51，arduino，STM32单片机也只懂皮毛。其他模块也只懂得不多。当时得控制题目只有板球控制系统，当时是要用到摄像头，图像二值化，还有电机的驱动，PID算法。所以可以看出在四天三夜里面我">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/2019070117305156.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNDQyNjU2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/2019070117243182.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNDQyNjU2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20190701172743651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNDQyNjU2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20190701172756631.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNDQyNjU2,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20190701172819943.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNDQyNjU2,size_16,color_FFFFFF,t_70">
-<meta property="og:updated_time" content="2019-07-02T07:31:16.859Z">
+<meta property="og:updated_time" content="2019-08-08T13:10:11.504Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="大创项目-水面清理船">
-<meta name="twitter:description" content="本次主要介绍本人最近的项目水面清理船人员分工废话不多说，直接贴上大创任务书的图片 这个作品的硬件比较简单 主要是图像处理部分，所以本文主要讲解视频图像处理部分下面的程序可以看到图像处理的结果&amp;gt; # 导入所需模块 import cv2 as cv  import collections  import numpy as np  import imutils import socket impo">
-<meta name="twitter:image" content="https://img-blog.csdnimg.cn/2019070117305156.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNDQyNjU2,size_16,color_FFFFFF,t_70">
+<meta name="twitter:title" content="2017-2019电子设计大赛感悟">
+<meta name="twitter:description" content="2017年暑假电赛经历2017年是大一下学期，暑假期间是大一刚刚结束。同时在暑假期间也举行了全国电子设计大赛，我作为基地实验室的成员也参加了，但是这次经历是很沉重的。首先，自己模电数电专业课没有学，单片机只懂51，arduino，STM32单片机也只懂皮毛。其他模块也只懂得不多。当时得控制题目只有板球控制系统，当时是要用到摄像头，图像二值化，还有电机的驱动，PID算法。所以可以看出在四天三夜里面我">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/07/01/大创项目-水面清理船/">
+  <link rel="canonical" href="http://yoursite.com/2019/08/08/2017-2019年电赛感悟/">
 
 
 
@@ -133,7 +127,7 @@
   };
 </script>
 
-  <title>大创项目-水面清理船 | 老谢博客</title>
+  <title>2017-2019电子设计大赛感悟 | 老谢博客</title>
   
 
 
@@ -365,7 +359,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/01/大创项目-水面清理船/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/08/2017-2019年电赛感悟/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="XSYDream">
@@ -382,7 +376,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">大创项目-水面清理船
+          <h1 class="post-title" itemprop="name headline">2017-2019电子设计大赛感悟
 
               
             
@@ -408,24 +402,12 @@
                 
               
 
-              <time title="创建时间：2019-07-01 20:13:15" itemprop="dateCreated datePublished" datetime="2019-07-01T20:13:15+08:00">2019-07-01</time>
+              <time title="创建时间：2019-08-08 21:47:59 / 修改时间：21:10:11" itemprop="dateCreated datePublished" datetime="2019-08-08T21:47:59+08:00">2019-08-08</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-07-02 15:31:16" itemprop="dateModified" datetime="2019-07-02T15:31:16+08:00">2019-07-02</time>
               
             
           </span>
@@ -459,7 +441,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">8.9k</span>
+                <span title="本文字数">4.4k</span>
               
 
               
@@ -473,7 +455,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">8 分钟</span>
+                <span title="阅读时长">4 分钟</span>
               
             </div>
           
@@ -493,168 +475,7 @@
       
 
       
-        <h2 id="本次主要介绍本人最近的项目水面清理船"><a href="#本次主要介绍本人最近的项目水面清理船" class="headerlink" title="本次主要介绍本人最近的项目水面清理船"></a>本次主要介绍本人最近的项目水面清理船</h2><p>人员分工<br><img src="https://img-blog.csdnimg.cn/2019070117305156.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNDQyNjU2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><strong>废话不多说，直接贴上大创任务书的图片</strong><br><img src="https://img-blog.csdnimg.cn/2019070117243182.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNDQyNjU2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190701172743651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNDQyNjU2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190701172756631.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNDQyNjU2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20190701172819943.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQwNDQyNjU2,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="这个作品的硬件比较简单-主要是图像处理部分，所以本文主要讲解视频图像处理部分"><a href="#这个作品的硬件比较简单-主要是图像处理部分，所以本文主要讲解视频图像处理部分" class="headerlink" title="这个作品的硬件比较简单 主要是图像处理部分，所以本文主要讲解视频图像处理部分"></a>这个作品的硬件比较简单 主要是图像处理部分，所以本文主要讲解视频图像处理部分</h2><h2 id="下面的程序可以看到图像处理的结果"><a href="#下面的程序可以看到图像处理的结果" class="headerlink" title="下面的程序可以看到图像处理的结果"></a>下面的程序可以看到图像处理的结果</h2><pre><code>&gt; # 导入所需模块 import cv2 as cv 
-import collections 
-import numpy as np 
-import imutils import socket
-import time
-&gt; # 打开摄像头 url_s = &apos;http://192.168.1.1:8080/?action=stream&apos; cap = cv.VideoCapture(url_s )
-&gt; # 创建一个socket: s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-&gt; # 建立连接: s.connect((&apos;192.168.1.1&apos;, 2001))
-&gt; 
-&gt; 
-&gt; while True:
-&gt;     # 读取每一帧
-&gt;     _, frame = cap.read()
-&gt;     # 重设图片尺寸以提高计算速度
-&gt;     frame = imutils.resize(frame, width=600)
-&gt;     # 进行高斯模糊str1 = &apos;,&apos;.join(arr)
-&gt;     blurred = cv.GaussianBlur(frame, (11, 11), 0)
-&gt;     # 转换颜色空间到HSV
-&gt;     hsv = cv.cvtColor(blurred, cv.COLOR_BGR2HSV)
-&gt;     # 定义蓝色无图的HSV阈值
-&gt;     lower_red = np.array([20, 100, 100])
-&gt;     upper_red = np.array([220, 255, 255])
-&gt;     # 对图片进行二值化处理
-&gt;     mask = cv.inRange(hsv, lower_red, upper_red)
-&gt;     # 腐蚀操作
-&gt;     mask = cv.erode(mask, None, iterations=2)
-&gt;     # 膨胀操作，先腐蚀后膨胀以滤除噪声
-&gt;     mask = cv.dilate(mask, None, iterations=2)
-&gt;     cv.imshow(&apos;yuantu&apos;, frame)
-&gt;     cv.imshow(&apos;mask&apos;, mask)
-&gt; 
-&gt;     # 寻找图中轮廓
-&gt;     cnts = cv.findContours(mask.copy(), cv.RETR_EXTERNAL, cv.CHAIN_APPROX_SIMPLE)[-2]
-&gt; 
-&gt;     # 如果存在至少一个轮廓则进行如下操作
-&gt;     if len(cnts) &gt; 0:
-&gt;         # 找到面积最大的轮廓
-&gt;         c = max(cnts, key=cv.contourArea)
-&gt;         # 使用最小外接圆圈出面积最大的轮廓
-&gt;         ((x, y), radius) = cv.minEnclosingCircle(c)
-&gt;         # 计算轮廓的矩
-&gt;         M = cv.moments(c)
-&gt;         # 计算轮廓的重心
-&gt;         center = (int(M[&quot;m10&quot;] / M[&quot;m00&quot;]), int(M[&quot;m01&quot;] /  M[&quot;m00&quot;]))
-&gt;         zuobiao=np.array(center)
-&gt;         print(zuobiao)
-&gt;         if zuobiao[1]&gt;240:
-&gt;             s.send(b&apos;0&apos;)
-&gt;             print(&apos;停&apos;)
-&gt;         else:
-&gt;             if zuobiao[0]&gt;400:
-&gt;                 s.send(b&apos;1&apos;)
-&gt;                 print(&apos;右&apos;)
-&gt;             elif zuobiao[0]&lt;200:
-&gt;                     s.send(b&apos;2&apos;)
-&gt;                     print(&apos;左&apos;)
-&gt;             elif 240&lt;zuobiao[0]&lt;400:
-&gt;                     s.send(b&apos;3&apos;)
-&gt;                     print(&apos;前&apos;)
-&gt;          # 只处理尺寸足够大的轮廓
-&gt;         if radius &gt; 5:
-&gt;             # 画出最小外接圆
-&gt;             cv.circle(frame, (int(x), int(y)), int(radius), (0, 255, 255), 2)
-&gt;             # 画出重心
-&gt;             cv.circle(frame, center, 5, (0, 0, 255), -1)
-&gt;         zuobiao=[]
-&gt;     else:
-&gt;         print(&apos;无图像&apos;)
-&gt;         s.send(b&apos;4&apos;)
-&gt;     cv.imshow(&apos;frame&apos;, frame)
-&gt;     k = cv.waitKey(5) &amp; 0xFF
-&gt;     if k == 27:
-&gt;         break cap.release() cv.destroyAllWindows()</code></pre><h2 id="下面的程序可以直接控制小船跑动"><a href="#下面的程序可以直接控制小船跑动" class="headerlink" title="下面的程序可以直接控制小船跑动"></a>下面的程序可以直接控制小船跑动</h2><pre><code>&gt; from tkinter import * import cv2 as cv from PIL import Image, ImageTk
-&gt; import os import socket url_s =
-&gt; &apos;http://192.168.1.1:8080/?action=stream&apos; capture =
-&gt; cv.VideoCapture(url_s)
-&gt; # 创建一个socket: s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-&gt; # # 建立连接: s.connect((&apos;192.168.1.1&apos;, 2001))
-&gt; 
-&gt; #摄像机设置
-&gt; #0是代表摄像头编号，只有一个的话默认为0
-&gt; 
-&gt; 
-&gt; def getframe():
-&gt;     ref,frame=capture.read()
-&gt;     cv.imwrite(tempimagepath,frame)
-&gt; 
-&gt; def closecamera():
-&gt;     capture.release()
-&gt; 
-&gt; 
-&gt; def getframe():
-&gt;     ref, frame = capture.read()
-&gt;     cv.imwrite(tempimagepath, frame)
-&gt; 
-&gt; 
-&gt; def closecamera():
-&gt;     capture.release()
-&gt; 
-&gt; 
-&gt; # 界面相关 window_width = 640 window_height = 480 image_width = int(window_width * 0.6) image_height = int(window_height * 0.6)
-&gt; imagepos_x1 = int(window_width * 0.2) imagepos_y1 = int(window_height
-&gt; * 0.1) butpos_x1 = 250 butpos_y1 = 350 imagepos_x2 = int(window_width * 0.2) imagepos_y2 = int(window_height * 0.1) butpos_x2 = 250 butpos_y2 = 400 imagepos_x3 = int(window_width * 0.2) imagepos_y3 =
-&gt; int(window_height * 0.1) butpos_x3 = 100 butpos_y3 = 400 imagepos_x4 =
-&gt; int(window_width * 0.2) imagepos_y4 = int(window_height * 0.1)
-&gt; butpos_x4 = 400 butpos_y4 = 400
-&gt; 
-&gt; top = Tk() top.wm_title(&quot;face recognition&quot;)
-&gt; top.geometry(str(window_width) + &apos;x&apos; + str(window_height))
-&gt; 
-&gt; 
-&gt; def tkImage():
-&gt;     ref, frame = capture.read()
-&gt;     cvimage = cv.cvtColor(frame, cv.COLOR_BGR2RGBA)
-&gt;     pilImage = Image.fromarray(cvimage)
-&gt;     pilImage = pilImage.resize((image_width, image_height), Image.ANTIALIAS)
-&gt;     tkImage = ImageTk.PhotoImage(image=pilImage)
-&gt;     return tkImage
-&gt; 
-&gt; 
-&gt; def button1():
-&gt;     print(&apos;前&apos;)
-&gt;     s.send(b&apos;3&apos;)
-&gt; 
-&gt; # 控件定义1 canvas1 = Canvas(top, bg=&apos;white&apos;, width=image_width, height=image_height)  # 绘制画布 b1 = Button(top, text=&apos;上&apos;, width=15,
-&gt; height=2, command=button1)
-&gt; 
-&gt; # 控件位置设置 canvas1.place(x=imagepos_x1, y=imagepos_y1) b1.place(x=butpos_x1, y=butpos_y1) def button2():
-&gt;     print(&apos;停&apos;)
-&gt;     s.send(b&apos;0&apos;)
-&gt; 
-&gt; # 控件定义2 canvas2 = Canvas(top, bg=&apos;white&apos;, width=image_width, height=image_height)  # 绘制画布 b2 = Button(top, text=&apos;停&apos;, width=15,
-&gt; height=2, command=button2)
-&gt; 
-&gt; # 控件位置设置 canvas2.place(x=imagepos_x2, y=imagepos_y2) b2.place(x=butpos_x2, y=butpos_y2) def button3():
-&gt;     print(&apos;左&apos;)
-&gt;     s.send(b&apos;2&apos;)
-&gt; 
-&gt; # 控件定义3 canvas3 = Canvas(top, bg=&apos;white&apos;, width=image_width, height=image_height)  # 绘制画布 b3 = Button(top, text=&apos;左&apos;, width=15,
-&gt; height=2, command=button3)
-&gt; 
-&gt; # 控件位置设置 canvas3.place(x=imagepos_x3, y=imagepos_y3) b3.place(x=butpos_x3, y=butpos_y3) def button4():
-&gt;     print(&apos;右&apos;)
-&gt;     s.send(b&apos;1&apos;)
-&gt; 
-&gt; # 控件定义4 canvas4 = Canvas(top, bg=&apos;white&apos;, width=image_width, height=image_height)  # 绘制画布 b4 = Button(top, text=&apos;右&apos;, width=15,
-&gt; height=2, command=button4)
-&gt; 
-&gt; # 控件位置设置 canvas4.place(x=imagepos_x4, y=imagepos_y4) b4.place(x=butpos_x4, y=butpos_y4) if __name__ == &quot;__main__&quot;:
-&gt;     while (True):
-&gt;         picture = tkImage()
-&gt;         canvas1.create_image(0, 0, anchor=&apos;nw&apos;, image=picture)
-&gt;         canvas2.create_image(0, 0, anchor=&apos;nw&apos;, image=picture)
-&gt;         canvas3.create_image(0, 0, anchor=&apos;nw&apos;, image=picture)
-&gt;         canvas4.create_image(0, 0, anchor=&apos;nw&apos;, image=picture)
-&gt;         top.update()
-&gt;         top.after(100)
-&gt; 
-&gt;     top.mainloop()
-&gt;     closecamera()</code></pre><p>整体演示效果可以在我个人bilibili平台上面观看：<a href="https://www.bilibili.com/video/av57485389" target="_blank" rel="noopener">https://www.bilibili.com/video/av57485389</a><br>想要更多资料可以进QQ群 864750551 获取<br>视频处理代码公布在github平台：<a href="https://github.com/XSYDream/Image-processing-Python" target="_blank" rel="noopener">https://github.com/XSYDream/Image-processing-Python</a><br>同时在CSDN下载平台：<a href="https://download.csdn.net/download/qq_40442656/11267200" target="_blank" rel="noopener">https://download.csdn.net/download/qq_40442656/11267200</a><br>所有资料在微信公众号：一手创客</p>
-
+        <h1 id="2017年暑假电赛经历"><a href="#2017年暑假电赛经历" class="headerlink" title="2017年暑假电赛经历"></a>2017年暑假电赛经历</h1><h2 id="2017年是大一下学期，暑假期间是大一刚刚结束。同时在暑假期间也举行了全国电子设计大赛，我作为基地实验室的成员也参加了，但是这次经历是很沉重的。首先，自己模电数电专业课没有学，单片机只懂51，arduino，STM32单片机也只懂皮毛。其他模块也只懂得不多。当时得控制题目只有板球控制系统，当时是要用到摄像头，图像二值化，还有电机的驱动，PID算法。所以可以看出在四天三夜里面我们组只弄出来了电机的转动以及PID调节转速，因为没有摄像头的反馈，所以这一次可以说是完全的失败了。不过在这一次的比赛中也认识到了自己的不足，还有感觉到自己是多么的渺小。自己今后得多学习。"><a href="#2017年是大一下学期，暑假期间是大一刚刚结束。同时在暑假期间也举行了全国电子设计大赛，我作为基地实验室的成员也参加了，但是这次经历是很沉重的。首先，自己模电数电专业课没有学，单片机只懂51，arduino，STM32单片机也只懂皮毛。其他模块也只懂得不多。当时得控制题目只有板球控制系统，当时是要用到摄像头，图像二值化，还有电机的驱动，PID算法。所以可以看出在四天三夜里面我们组只弄出来了电机的转动以及PID调节转速，因为没有摄像头的反馈，所以这一次可以说是完全的失败了。不过在这一次的比赛中也认识到了自己的不足，还有感觉到自己是多么的渺小。自己今后得多学习。" class="headerlink" title="2017年是大一下学期，暑假期间是大一刚刚结束。同时在暑假期间也举行了全国电子设计大赛，我作为基地实验室的成员也参加了，但是这次经历是很沉重的。首先，自己模电数电专业课没有学，单片机只懂51，arduino，STM32单片机也只懂皮毛。其他模块也只懂得不多。当时得控制题目只有板球控制系统，当时是要用到摄像头，图像二值化，还有电机的驱动，PID算法。所以可以看出在四天三夜里面我们组只弄出来了电机的转动以及PID调节转速，因为没有摄像头的反馈，所以这一次可以说是完全的失败了。不过在这一次的比赛中也认识到了自己的不足，还有感觉到自己是多么的渺小。自己今后得多学习。"></a>2017年是大一下学期，暑假期间是大一刚刚结束。同时在暑假期间也举行了全国电子设计大赛，我作为基地实验室的成员也参加了，但是这次经历是很沉重的。首先，自己模电数电专业课没有学，单片机只懂51，arduino，STM32单片机也只懂皮毛。其他模块也只懂得不多。当时得控制题目只有板球控制系统，当时是要用到摄像头，图像二值化，还有电机的驱动，PID算法。所以可以看出在四天三夜里面我们组只弄出来了电机的转动以及PID调节转速，因为没有摄像头的反馈，所以这一次可以说是完全的失败了。不过在这一次的比赛中也认识到了自己的不足，还有感觉到自己是多么的渺小。自己今后得多学习。</h2><h1 id="2018年暑假电赛"><a href="#2018年暑假电赛" class="headerlink" title="2018年暑假电赛"></a>2018年暑假电赛</h1><h2 id="2018年下学期是大二结束后得暑假，这一年的电赛是区级的，学校内选拔的题目我做的是水温控制系统，用的是PID算法调节温度，OLED显示，STM32主控。最后电赛题目选择的题目是手势控制，因为一开始我们弄过FDC电容传感器，所以选择这个，虽然一开始很顺利，但是我们一开始的方案都选择错误了，想用STM32采集数据通过串口传输给树莓派然后经过树莓派处理然后显示，但是一直卡在了树莓派串口数据接收这里，所以一直卡到了第三天结束，然后我熬夜去肛了一晚上STM32写程序去处理数据，但是由于时间实在是太短了。只能把石头剪刀布的电容变化处理出来，所以这次也是比较失败的一次。总结一下主要是方案选择错误，总是想着那种方案好就尝试那种，没有考虑时间问题。"><a href="#2018年下学期是大二结束后得暑假，这一年的电赛是区级的，学校内选拔的题目我做的是水温控制系统，用的是PID算法调节温度，OLED显示，STM32主控。最后电赛题目选择的题目是手势控制，因为一开始我们弄过FDC电容传感器，所以选择这个，虽然一开始很顺利，但是我们一开始的方案都选择错误了，想用STM32采集数据通过串口传输给树莓派然后经过树莓派处理然后显示，但是一直卡在了树莓派串口数据接收这里，所以一直卡到了第三天结束，然后我熬夜去肛了一晚上STM32写程序去处理数据，但是由于时间实在是太短了。只能把石头剪刀布的电容变化处理出来，所以这次也是比较失败的一次。总结一下主要是方案选择错误，总是想着那种方案好就尝试那种，没有考虑时间问题。" class="headerlink" title="2018年下学期是大二结束后得暑假，这一年的电赛是区级的，学校内选拔的题目我做的是水温控制系统，用的是PID算法调节温度，OLED显示，STM32主控。最后电赛题目选择的题目是手势控制，因为一开始我们弄过FDC电容传感器，所以选择这个，虽然一开始很顺利，但是我们一开始的方案都选择错误了，想用STM32采集数据通过串口传输给树莓派然后经过树莓派处理然后显示，但是一直卡在了树莓派串口数据接收这里，所以一直卡到了第三天结束，然后我熬夜去肛了一晚上STM32写程序去处理数据，但是由于时间实在是太短了。只能把石头剪刀布的电容变化处理出来，所以这次也是比较失败的一次。总结一下主要是方案选择错误，总是想着那种方案好就尝试那种，没有考虑时间问题。"></a>2018年下学期是大二结束后得暑假，这一年的电赛是区级的，学校内选拔的题目我做的是水温控制系统，用的是PID算法调节温度，OLED显示，STM32主控。最后电赛题目选择的题目是手势控制，因为一开始我们弄过FDC电容传感器，所以选择这个，虽然一开始很顺利，但是我们一开始的方案都选择错误了，想用STM32采集数据通过串口传输给树莓派然后经过树莓派处理然后显示，但是一直卡在了树莓派串口数据接收这里，所以一直卡到了第三天结束，然后我熬夜去肛了一晚上STM32写程序去处理数据，但是由于时间实在是太短了。只能把石头剪刀布的电容变化处理出来，所以这次也是比较失败的一次。总结一下主要是方案选择错误，总是想着那种方案好就尝试那种，没有考虑时间问题。</h2><h1 id="2019年暑假电赛"><a href="#2019年暑假电赛" class="headerlink" title="2019年暑假电赛"></a>2019年暑假电赛</h1><h2 id="2019年暑假是大三结束了，然而现在电赛期间我已经在外面实习了，电赛我也只能看看题目，没办法再经历一下四天三夜的奋斗了。再看看今年的带赛题目，确实是感觉思路比前两年更加清晰了。感觉自己都能做出几套方案，现在的自己FPGA-STM32-NXP1768-JAVA，摄像头，python都能做。但是时间不等人，瞬间感觉自己好无奈，有一股惆怅的心情。"><a href="#2019年暑假是大三结束了，然而现在电赛期间我已经在外面实习了，电赛我也只能看看题目，没办法再经历一下四天三夜的奋斗了。再看看今年的带赛题目，确实是感觉思路比前两年更加清晰了。感觉自己都能做出几套方案，现在的自己FPGA-STM32-NXP1768-JAVA，摄像头，python都能做。但是时间不等人，瞬间感觉自己好无奈，有一股惆怅的心情。" class="headerlink" title="2019年暑假是大三结束了，然而现在电赛期间我已经在外面实习了，电赛我也只能看看题目，没办法再经历一下四天三夜的奋斗了。再看看今年的带赛题目，确实是感觉思路比前两年更加清晰了。感觉自己都能做出几套方案，现在的自己FPGA,STM32,NXP1768,JAVA，摄像头，python都能做。但是时间不等人，瞬间感觉自己好无奈，有一股惆怅的心情。"></a>2019年暑假是大三结束了，然而现在电赛期间我已经在外面实习了，电赛我也只能看看题目，没办法再经历一下四天三夜的奋斗了。再看看今年的带赛题目，确实是感觉思路比前两年更加清晰了。感觉自己都能做出几套方案，现在的自己FPGA,STM32,NXP1768,JAVA，摄像头，python都能做。但是时间不等人，瞬间感觉自己好无奈，有一股惆怅的心情。</h2><h1 id="感悟"><a href="#感悟" class="headerlink" title="感悟"></a>感悟</h1><h2 id="电赛是一个锻炼的过程，即使成绩不佳，但是自己能从其中得到的远远不止这些，因为自己可以从过去的失败经历之中总结自己的不足，然后在后面的历程之中慢慢弥补自己的不足，这个才是一个成长的过程。回顾一下大学三年，从刚入门的大一新生到感觉自己学了好多，但是还是感觉自己学得不够多，这大概就是一个慢慢积累的过程，因为只有自己经历过，才会觉得值得，因为自己得到的远远不止于那些。转眼大四。加油！"><a href="#电赛是一个锻炼的过程，即使成绩不佳，但是自己能从其中得到的远远不止这些，因为自己可以从过去的失败经历之中总结自己的不足，然后在后面的历程之中慢慢弥补自己的不足，这个才是一个成长的过程。回顾一下大学三年，从刚入门的大一新生到感觉自己学了好多，但是还是感觉自己学得不够多，这大概就是一个慢慢积累的过程，因为只有自己经历过，才会觉得值得，因为自己得到的远远不止于那些。转眼大四。加油！" class="headerlink" title="电赛是一个锻炼的过程，即使成绩不佳，但是自己能从其中得到的远远不止这些，因为自己可以从过去的失败经历之中总结自己的不足，然后在后面的历程之中慢慢弥补自己的不足，这个才是一个成长的过程。回顾一下大学三年，从刚入门的大一新生到感觉自己学了好多，但是还是感觉自己学得不够多，这大概就是一个慢慢积累的过程，因为只有自己经历过，才会觉得值得，因为自己得到的远远不止于那些。转眼大四。加油！"></a>电赛是一个锻炼的过程，即使成绩不佳，但是自己能从其中得到的远远不止这些，因为自己可以从过去的失败经历之中总结自己的不足，然后在后面的历程之中慢慢弥补自己的不足，这个才是一个成长的过程。回顾一下大学三年，从刚入门的大一新生到感觉自己学了好多，但是还是感觉自己学得不够多，这大概就是一个慢慢积累的过程，因为只有自己经历过，才会觉得值得，因为自己得到的远远不止于那些。转眼大四。加油！</h2>
       
     </div>
 
@@ -704,8 +525,8 @@ import time
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/06/10/Git上传项目到Github/" rel="next" title="Git上传项目到Github">
-                <i class="fa fa-chevron-left"></i> Git上传项目到Github
+              <a href="/2019/07/26/FPGA学习参考/" rel="next" title="FPGA学习参考">
+                <i class="fa fa-chevron-left"></i> FPGA学习参考
               </a>
             
           </div>
@@ -713,10 +534,6 @@ import time
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/07/07/个人作品—智能血压测量计/" rel="prev" title="个人作品——智能血压测量计">
-                个人作品——智能血压测量计 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -902,7 +719,7 @@ import time
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#本次主要介绍本人最近的项目水面清理船"><span class="nav-number">1.</span> <span class="nav-text">本次主要介绍本人最近的项目水面清理船</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#这个作品的硬件比较简单-主要是图像处理部分，所以本文主要讲解视频图像处理部分"><span class="nav-number">2.</span> <span class="nav-text">这个作品的硬件比较简单 主要是图像处理部分，所以本文主要讲解视频图像处理部分</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下面的程序可以看到图像处理的结果"><span class="nav-number">3.</span> <span class="nav-text">下面的程序可以看到图像处理的结果</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#下面的程序可以直接控制小船跑动"><span class="nav-number">4.</span> <span class="nav-text">下面的程序可以直接控制小船跑动</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#2017年暑假电赛经历"><span class="nav-number">1.</span> <span class="nav-text">2017年暑假电赛经历</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2017年是大一下学期，暑假期间是大一刚刚结束。同时在暑假期间也举行了全国电子设计大赛，我作为基地实验室的成员也参加了，但是这次经历是很沉重的。首先，自己模电数电专业课没有学，单片机只懂51，arduino，STM32单片机也只懂皮毛。其他模块也只懂得不多。当时得控制题目只有板球控制系统，当时是要用到摄像头，图像二值化，还有电机的驱动，PID算法。所以可以看出在四天三夜里面我们组只弄出来了电机的转动以及PID调节转速，因为没有摄像头的反馈，所以这一次可以说是完全的失败了。不过在这一次的比赛中也认识到了自己的不足，还有感觉到自己是多么的渺小。自己今后得多学习。"><span class="nav-number">1.1.</span> <span class="nav-text">2017年是大一下学期，暑假期间是大一刚刚结束。同时在暑假期间也举行了全国电子设计大赛，我作为基地实验室的成员也参加了，但是这次经历是很沉重的。首先，自己模电数电专业课没有学，单片机只懂51，arduino，STM32单片机也只懂皮毛。其他模块也只懂得不多。当时得控制题目只有板球控制系统，当时是要用到摄像头，图像二值化，还有电机的驱动，PID算法。所以可以看出在四天三夜里面我们组只弄出来了电机的转动以及PID调节转速，因为没有摄像头的反馈，所以这一次可以说是完全的失败了。不过在这一次的比赛中也认识到了自己的不足，还有感觉到自己是多么的渺小。自己今后得多学习。</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2018年暑假电赛"><span class="nav-number">2.</span> <span class="nav-text">2018年暑假电赛</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2018年下学期是大二结束后得暑假，这一年的电赛是区级的，学校内选拔的题目我做的是水温控制系统，用的是PID算法调节温度，OLED显示，STM32主控。最后电赛题目选择的题目是手势控制，因为一开始我们弄过FDC电容传感器，所以选择这个，虽然一开始很顺利，但是我们一开始的方案都选择错误了，想用STM32采集数据通过串口传输给树莓派然后经过树莓派处理然后显示，但是一直卡在了树莓派串口数据接收这里，所以一直卡到了第三天结束，然后我熬夜去肛了一晚上STM32写程序去处理数据，但是由于时间实在是太短了。只能把石头剪刀布的电容变化处理出来，所以这次也是比较失败的一次。总结一下主要是方案选择错误，总是想着那种方案好就尝试那种，没有考虑时间问题。"><span class="nav-number">2.1.</span> <span class="nav-text">2018年下学期是大二结束后得暑假，这一年的电赛是区级的，学校内选拔的题目我做的是水温控制系统，用的是PID算法调节温度，OLED显示，STM32主控。最后电赛题目选择的题目是手势控制，因为一开始我们弄过FDC电容传感器，所以选择这个，虽然一开始很顺利，但是我们一开始的方案都选择错误了，想用STM32采集数据通过串口传输给树莓派然后经过树莓派处理然后显示，但是一直卡在了树莓派串口数据接收这里，所以一直卡到了第三天结束，然后我熬夜去肛了一晚上STM32写程序去处理数据，但是由于时间实在是太短了。只能把石头剪刀布的电容变化处理出来，所以这次也是比较失败的一次。总结一下主要是方案选择错误，总是想着那种方案好就尝试那种，没有考虑时间问题。</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2019年暑假电赛"><span class="nav-number">3.</span> <span class="nav-text">2019年暑假电赛</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2019年暑假是大三结束了，然而现在电赛期间我已经在外面实习了，电赛我也只能看看题目，没办法再经历一下四天三夜的奋斗了。再看看今年的带赛题目，确实是感觉思路比前两年更加清晰了。感觉自己都能做出几套方案，现在的自己FPGA-STM32-NXP1768-JAVA，摄像头，python都能做。但是时间不等人，瞬间感觉自己好无奈，有一股惆怅的心情。"><span class="nav-number">3.1.</span> <span class="nav-text">2019年暑假是大三结束了，然而现在电赛期间我已经在外面实习了，电赛我也只能看看题目，没办法再经历一下四天三夜的奋斗了。再看看今年的带赛题目，确实是感觉思路比前两年更加清晰了。感觉自己都能做出几套方案，现在的自己FPGA,STM32,NXP1768,JAVA，摄像头，python都能做。但是时间不等人，瞬间感觉自己好无奈，有一股惆怅的心情。</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#感悟"><span class="nav-number">4.</span> <span class="nav-text">感悟</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#电赛是一个锻炼的过程，即使成绩不佳，但是自己能从其中得到的远远不止这些，因为自己可以从过去的失败经历之中总结自己的不足，然后在后面的历程之中慢慢弥补自己的不足，这个才是一个成长的过程。回顾一下大学三年，从刚入门的大一新生到感觉自己学了好多，但是还是感觉自己学得不够多，这大概就是一个慢慢积累的过程，因为只有自己经历过，才会觉得值得，因为自己得到的远远不止于那些。转眼大四。加油！"><span class="nav-number">4.1.</span> <span class="nav-text">电赛是一个锻炼的过程，即使成绩不佳，但是自己能从其中得到的远远不止这些，因为自己可以从过去的失败经历之中总结自己的不足，然后在后面的历程之中慢慢弥补自己的不足，这个才是一个成长的过程。回顾一下大学三年，从刚入门的大一新生到感觉自己学了好多，但是还是感觉自己学得不够多，这大概就是一个慢慢积累的过程，因为只有自己经历过，才会觉得值得，因为自己得到的远远不止于那些。转眼大四。加油！</span></a></li></ol></li></ol></div>
             
 
           </div>
